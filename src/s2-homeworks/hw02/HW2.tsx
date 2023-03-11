@@ -46,7 +46,7 @@ export const deleteAffair = (affairs: AffairType[], _id: number): any => {
 };
 
 function HW2() {
-  const [affairs, setAffairs] = useState<AffairType[]>(defaultAffairs); // need to fix any
+  const [affairs, setAffairs] = useState<AffairType[]>(defaultAffairs);
   const [filter, setFilter] = useState<FilterType>("all");
 
   const filteredAffairs = filterAffairs(affairs, filter);
